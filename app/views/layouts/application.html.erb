@@ -11,44 +11,53 @@
    <div id="background">
    <div id="root">
 
-  <h1>Welcome to my website</h1>
-  <ul id="menu">
-  <li><a href="#">Home</a></li>
-  <li>
-    <a href="#">Administrative Support</a>
-    <ul>
-      <li><a href="#">Word Processing</a></li>
-      <li><a href="#">Data Entry</a></li>
-      <li><a href="#">Data Mining</a></li>
-      <li><a href="#">Live support</a></li>
+      <%= image_tag('logo.jpg', :height => 70) %>
+      <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Administrative Support</a>
+        <ul>
+          <li><a href="#">Word Processing</a></li>
+          <li><a href="#">Data Entry</a></li>
+          <li><a href="#">Data Mining</a></li>
+          <li><a href="#">Live support</a></li>
+        </ul>
+      </li>
+      <li><a href="#">I need a website</a></li>
+      <li>
+        <a href="#">Graphic Design</a>
+        <ul>
+          <li><a href="#">Logo & Banner design</a> <li>
+          <li><a href="#">Image editing</a></li>
+          <li><a href="#">PHD to HTML</a></li>
+        </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
-  </li>
-  <li>
-    <a href="#">Graphic Design</a>
-    <ul>
-      <li><a href="#">Logo & Banner design</a> <li>
-      <li><a href="#">Image editing</a></li>
-      <li><a href="#">PHD to HTML</a></li>
-    </ul>
-  </li>
-  <li><a href="#">About</a></li>
-  <li><a href="#">Contact</a></li>
-</ul>
-<!--
-<div id="user_nav">
-  <% if user_signed_in? %>
-    Signed in as <%= current_user.email %>. Not you?
-    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-  <% else %>
-    <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
-  <% end %>
-</div>
- -->
-<% flash.each do |name, msg| %>
-  <%= content_tag :div, msg, :id => "flash_#{name}" %>
-<% end %>
+    <!--
+    <div id="user_nav">
+      <% if user_signed_in? %>
+        Signed in as <%= current_user.email %>. Not you?
+        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+      <% else %>
+        <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
+      <% end %>
+    </div>
+     -->
+    <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, :id => "flash_#{name}" %>
+    <% end %>
 
-<%= yield %>
+    <%= yield %>
+
+<footer>
+      <div id= "footer">
+        <div id = "footer_text">
+          © 2013 Invento Bangladesh. All rights reserved.
+       
+      </div>
+<footer>
 </div>
 </div>
 </body>
