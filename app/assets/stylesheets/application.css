@@ -76,9 +76,12 @@
 	color: #fafafa;
 }
 
-*html #menu li a:hover{ /* IE6 */
+/* IE6 */
+/*
+*html #menu li a:hover{ 
 	color: #fafafa;
 }
+*/
 
 #menu li:hover > ul{
 	display: block;
@@ -132,15 +135,18 @@
     text-transform: none;
 }
 
-*html #menu ul a{ /* IE6 */   
+/* IE6 */ 
+/*
+*html #menu ul a{   
 	height: 10px;
 	width: 150px;
 }
 
-*:first-child+html #menu ul a{ /* IE7 */    
+*:first-child+html #menu ul a{ // IE7   
 	height: 10px;
 	width: 150px;
 }
+*/
 
 #menu ul a:hover{
         background: #0186ba;
@@ -190,5 +196,7 @@
 	height: 0;
 }
 
-* html #menu             { zoom: 1; } /* IE6 */
-*:first-child+html #menu { zoom: 1; } /* IE7 */
+
+
+//* html #menu             { zoom: 1; } /* IE6 */
+//*:first-child+html #menu { zoom: 1; } /* IE7 */
