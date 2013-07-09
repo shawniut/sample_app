@@ -13,32 +13,72 @@
  */
 /* Main */
 #menu{
+
 	width: 100%;
 	margin: 0;
 	padding: 10px 0 0 0;
 	list-style: none;  
-	background: #111;
-	background: -moz-linear-gradient(#444, #111); 
-        background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));	
-	background: -webkit-linear-gradient(#444, #111);	
-	background: -o-linear-gradient(#444, #111);
-	background: -ms-linear-gradient(#444, #111);
-	background: linear-gradient(#444, #111);
-	-moz-border-radius: 50px;
-	border-radius: 10px;
+	background: #F1F5FF;
+	//background: -moz-linear-gradient(#444, #111); 
+        //background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));	
+	//background: -webkit-linear-gradient(#444, #111);	
+	//background: -o-linear-gradient(#444, #111);
+	//background: -ms-linear-gradient(#444, #111);
+	//background: linear-gradient(#444, #111);
+	//-moz-border-radius: 50px;
+	border-radius: 0px;
 	-moz-box-shadow: 0 2px 1px #9c9c9c;
 	-webkit-box-shadow: 0 2px 1px #9c9c9c;
 	box-shadow: 0 2px 1px #9c9c9c;
 }
-
 #root{
-    background-color:#FFFFFF;                                                                                         
-    margin:auto;                                                                                                      
+    min-height: 100%;
+    //background-color:#BCC6CC;
+    background-color:#FAFDFE;
+    
+
+    
+}
+
+#header{
+    margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    background: #F1F5FF;
+    //background: #F7FBFA;
+    border-color: #999;
+    //border-bottom-style:solid;
+    border-bottom-width:1px;
+    height:75px; 
+                                                                                                      
+}
+.logo{
+    margin-left: 170px;
+}
+
+#nav-bar{
+   //margin-top:-8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    background: #BCC6CC;
+    //background: #F7FBFA;
+    border-color: #999;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    height:40px;  
+}
+#body{
+    background-color:#FAFDFE;
+    margin: auto;
+    margin-top: 10px;
+    //padding: 0;                                                                                                    
     width:1008px;                                                                                                     
     color:#000000;                                                                                                    
     font-family:Verdana,Arial,sans-serif;                                                                             
     font-size:10pt; 
 }
+
+
 
 #footer {
  background-color:#000000; 
@@ -56,7 +96,9 @@
 }
 
 #menu li{
-	float: left;
+	float: right;
+    //margin-left:auto;
+    //margin-right:auto;
 	padding: 0 0 10px 0;
 	position: relative;
 }
@@ -64,16 +106,18 @@
 #menu a{
 	float: left;
 	height: 25px;
-	padding: 0 25px;
-	color: #999;
+	padding: 0 15px;
+	//color: #999;
+    color:#347C17;
 	text-transform: uppercase;
 	font: bold 12px/25px Arial, Helvetica;
 	text-decoration: none;
-	text-shadow: 0 1px 0 #000;
+	text-shadow: 0 0.5px 0 #FFF;
 }
 
 #menu li:hover > a{
-	color: #fafafa;
+	//color: #fafafa;
+    color:#254117;
 }
 
 /* IE6 */
@@ -96,17 +140,19 @@
     display: none;
     position: absolute;
     top: 35px;
-    left: 0;
-    z-index: 99999;    
-    background: #444;
-    background: -moz-linear-gradient(#444, #111);
-    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
-    background: -webkit-linear-gradient(#444, #111);    
-    background: -o-linear-gradient(#444, #111);	
-    background: -ms-linear-gradient(#444, #111);	
-    background: linear-gradient(#444, #111);	
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    left: 18px;
+    //right: 20px;
+    z-index: 99999; 
+    background: #B2DF4A;   
+    //background: #444;
+    //background: -moz-linear-gradient(#444, #111);
+    //background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    //background: -webkit-linear-gradient(#444, #111);    
+    //background: -o-linear-gradient(#444, #111);	
+    //background: -ms-linear-gradient(#444, #111);	
+    //background: linear-gradient(#444, #111);	
+    //-moz-border-radius: 5px;
+    border-radius: 3px;
 }
 
 #menu ul li{
@@ -114,9 +160,9 @@
     margin: 0;
     padding: 0;
     display: block;  
-    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
-    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
-    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    //-moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    //-webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    //ox-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
 }
 
 #menu ul li:last-child{   
@@ -149,19 +195,19 @@
 */
 
 #menu ul a:hover{
-        background: #0186ba;
-	background: -moz-linear-gradient(#04acec,  #0186ba);	
-	background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
-	background: -webkit-linear-gradient(#04acec,  #0186ba);
-	background: -o-linear-gradient(#04acec,  #0186ba);
-	background: -ms-linear-gradient(#04acec,  #0186ba);
-	background: linear-gradient(#04acec,  #0186ba);
+        //background: #0186ba;
+	//background: -moz-linear-gradient(#04acec,  #0186ba);	
+	//background: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+	//background: -webkit-linear-gradient(#04acec,  #0186ba);
+	//background: -o-linear-gradient(#04acec,  #0186ba);
+	//background: -ms-linear-gradient(#04acec,  #0186ba);
+	//background: linear-gradient(#04acec,  #0186ba);
 }
 
 #menu ul li:first-child a{
     -moz-border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
-    border-radius: 5px 5px 0 0;
+    //border-radius: 5px 5px 0 0;
 }
 
 #menu ul li:first-child a:after{
@@ -171,13 +217,13 @@
     top: -8px;
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 8px solid #444;
+    //border-left: 5px solid transparent;
+    //border-right: 5px solid transparent;
+    //border-bottom: 8px solid #444;
 }
 
 #menu ul li:first-child a:hover:after{
-    border-bottom-color: #04acec; 
+    //border-bottom-color: #04acec; 
 }
 
 #menu ul li:last-child a{
