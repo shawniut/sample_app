@@ -1,0 +1,27 @@
+1374358299
+Application	C:/Important/My projects/git projects/sample_app/config/application.rb	  class Application 
+ApplicationController	C:/Important/My projects/git projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	C:/Important/My projects/git projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+BrowsingTest	C:/Important/My projects/git projects/sample_app/test/performance/browsing_test.rb	class BrowsingTest 
+DashboardController	C:/Important/My projects/git projects/sample_app/app/controllers/dashboard_controller.rb	class DashboardController 
+DashboardControllerTest	C:/Important/My projects/git projects/sample_app/test/functional/dashboard_controller_test.rb	class DashboardControllerTest 
+DashboardHelper	C:/Important/My projects/git projects/sample_app/app/helpers/dashboard_helper.rb	module DashboardHelper
+DashboardHelperTest	C:/Important/My projects/git projects/sample_app/test/unit/helpers/dashboard_helper_test.rb	class DashboardHelperTest 
+DeviseCreateUsers	C:/Important/My projects/git projects/sample_app/db/migrate/20130627032057_devise_create_users.rb	class DeviseCreateUsers 
+HomeController	C:/Important/My projects/git projects/sample_app/app/controllers/home_controller.rb	class HomeController 
+HomeControllerTest	C:/Important/My projects/git projects/sample_app/test/functional/home_controller_test.rb	class HomeControllerTest 
+HomeHelper	C:/Important/My projects/git projects/sample_app/app/helpers/home_helper.rb	module HomeHelper
+HomeHelperTest	C:/Important/My projects/git projects/sample_app/test/unit/helpers/home_helper_test.rb	class HomeHelperTest 
+SampleApp	C:/Important/My projects/git projects/sample_app/config/application.rb	module SampleApp
+SmallBusinessPackController	C:/Important/My projects/git projects/sample_app/app/controllers/small_business_pack_controller.rb	class SmallBusinessPackController 
+SmallBusinessPackControllerTest	C:/Important/My projects/git projects/sample_app/test/functional/small_business_pack_controller_test.rb	class SmallBusinessPackControllerTest 
+SmallBusinessPackHelper	C:/Important/My projects/git projects/sample_app/app/helpers/small_business_pack_helper.rb	module SmallBusinessPackHelper
+SmallBusinessPackHelperTest	C:/Important/My projects/git projects/sample_app/test/unit/helpers/small_business_pack_helper_test.rb	class SmallBusinessPackHelperTest 
+TestCase	C:/Important/My projects/git projects/sample_app/test/test_helper.rb	class ActiveSupport::TestCase
+User	C:/Important/My projects/git projects/sample_app/app/models/user.rb	class User 
+UserTest	C:/Important/My projects/git projects/sample_app/test/unit/user_test.rb	class UserTest 
+change	C:/Important/My projects/git projects/sample_app/db/migrate/20130627032057_devise_create_users.rb	  def change
+index	C:/Important/My projects/git projects/sample_app/app/controllers/home_controller.rb	def index
+index	C:/Important/My projects/git projects/sample_app/app/controllers/dashboard_controller.rb	def index
+index	C:/Important/My projects/git projects/sample_app/app/controllers/small_business_pack_controller.rb	def index
+test_homepage	C:/Important/My projects/git projects/sample_app/test/performance/browsing_test.rb	  def test_homepage

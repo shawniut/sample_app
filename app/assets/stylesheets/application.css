@@ -14,11 +14,12 @@
 /* Main */
 #menu{
 
-	width: 100%;
-	margin: 0;
+	width: 1000px;
+	margin-left:auto;
+  margin-right: auto;
 	padding: 10px 0 0 0;
 	list-style: none;  
-	background: #F1F5FF;
+	background: #FFFFFF;
 	//background: -moz-linear-gradient(#444, #111); 
         //background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));	
 	//background: -webkit-linear-gradient(#444, #111);	
@@ -26,15 +27,15 @@
 	//background: -ms-linear-gradient(#444, #111);
 	//background: linear-gradient(#444, #111);
 	//-moz-border-radius: 50px;
-	border-radius: 0px;
+	border-radius: 2px;
 	-moz-box-shadow: 0 2px 1px #9c9c9c;
 	-webkit-box-shadow: 0 2px 1px #9c9c9c;
-	box-shadow: 0 2px 1px #9c9c9c;
+	box-shadow: 0 1px 1px #9c9c9c;
 }
 #root{
     min-height: 100%;
     //background-color:#BCC6CC;
-    background-color:#FAFDFE;
+    background-color:#FAFAFA;
     
 
     
@@ -42,25 +43,33 @@
 
 #header{
     margin-top:-8px;
-    margin-left:-8px;
-    margin-right:-8px;
-    background: #F1F5FF;
+    margin-left:auto;
+    margin-right: auto;
+    background: #FFFFFF;
     //background: #F7FBFA;
     border-color: #999;
     //border-bottom-style:solid;
     border-bottom-width:1px;
-    height:75px; 
+    height:75px;
+    width: 1000px;
+    border-style: solid;
+    border-color: #E5E4E2;
+    border-width:1px;
+    border-radius: 3px;
                                                                                                       
 }
 .logo{
-    margin-left: 170px;
+    margin-left: 15px;
 }
 
 #nav-bar{
-   //margin-top:-8px;
-    margin-left:-8px;
-    margin-right:-8px;
-    background: #BCC6CC;
+  
+    width: 1000px;
+    margin-top:-14px;
+    //margin-left:-8px;
+    margin-left:auto;
+    margin-right:auto;
+    background: #FFFFFF;
     //background: #F7FBFA;
     border-color: #999;
     border-bottom-style:solid;
@@ -68,14 +77,19 @@
     height:40px;  
 }
 #body{
-    background-color:#FAFDFE;
+    background-color:#FFFFFF;
     margin: auto;
     margin-top: 10px;
+	margin-bottom: 10px;
     //padding: 0;                                                                                                    
-    width:1008px;                                                                                                     
+    width:1000px;                                                                                                     
     color:#000000;                                                                                                    
     font-family:Verdana,Arial,sans-serif;                                                                             
-    font-size:10pt; 
+    font-size:10pt;
+    border-style: solid;
+    border-color: #E5E4E2;
+    border-width:1px;
+    border-radius: 3px;
 }
 
 
@@ -143,7 +157,7 @@
     left: 18px;
     //right: 20px;
     z-index: 99999; 
-    background: #B2DF4A;   
+    background: #FAFAFA;   
     //background: #444;
     //background: -moz-linear-gradient(#444, #111);
     //background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));

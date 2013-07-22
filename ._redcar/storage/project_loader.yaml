@@ -1,0 +1,7 @@
+--- 
+open_files: 
+  - app/views/layouts/application.html.erb
+  - app/assets/stylesheets/application.css
+  - app/assets/stylesheets/home.css.scss
+  - app/views/small_business_pack/index.html.erb
+  - app/assets/stylesheets/small_business_pack.css.scss

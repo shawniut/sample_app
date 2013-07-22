@@ -1,0 +1,29 @@
+--- 
+cursor_positions: 
+  - :path: app/controllers/small_business_pack_controller.rb
+    :cursor_offset: 74
+    :timestamp: 2013-07-20 04:47:25.888000 -06:00
+  - :path: app/views/home/index.html.erb
+    :cursor_offset: 1510
+    :timestamp: 2013-07-20 04:47:01.666000 -06:00
+  - :path: config/routes.rb
+    :cursor_offset: 248
+    :timestamp: 2013-07-20 04:48:08.027000 -06:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 298
+    :timestamp: 2013-07-20 04:42:29.227000 -06:00
+    :selection_offset: 288
+    :block_selection_mode: false
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 0
+    :timestamp: 2013-07-20 05:44:58.350000 -06:00
+  - :path: app/assets/stylesheets/home.css.scss
+    :cursor_offset: 483
+    :timestamp: 2013-07-09 17:14:59.065000 -06:00
+  - :path: app/views/small_business_pack/index.html.erb
+    :cursor_offset: 517
+    :timestamp: 2013-07-20 05:54:04.458000 -06:00
+  - :path: app/assets/stylesheets/small_business_pack.css.scss
+    :cursor_offset: 1100
+    :timestamp: 2013-07-20 16:10:32.638000 -06:00
+files_to_retain: 0

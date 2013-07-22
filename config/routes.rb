@@ -1,7 +1,7 @@
 SampleApp::Application.routes.draw do
   devise_for :users
 
-  resources :dashboard
+  resources :dashboard, :small_business_pack
 
   root to: "home#index"
 
